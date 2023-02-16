@@ -44,6 +44,8 @@ namespace Calculadora_Gasolina_Etanol_3._0
 
             Console.Write("\nAperte a tecla ENTER para sair.");
             Console.ReadKey();
+
+            //ALTERAÇÃO DE DADOS CRIADOS PARA TESTE DE BRANCH
         }
     }
 }
