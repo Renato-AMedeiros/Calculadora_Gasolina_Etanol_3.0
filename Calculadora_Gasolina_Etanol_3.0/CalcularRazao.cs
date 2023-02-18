@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Calculadora_Gasolina_Etanol_3._0
 {
-    class CalcularRazao
+    public class CalcularRazao
     {
         private double _combustivelA;
         public double CombustivelA
@@ -79,6 +79,18 @@ namespace Calculadora_Gasolina_Etanol_3._0
             }
 
 
+        }
+
+        public string CalcularVantagem()
+        {
+            if (Razao >= 0.73)//Gasolina
+            {
+                return "G";
+            }
+            else // Etanol
+            {
+                return "E";
+            }
         }
     }
 }
