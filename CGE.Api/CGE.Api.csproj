@@ -11,4 +11,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Calculadora_Gasolina_Etanol_3.0\Calculadora_Gasolina_Etanol_3.0.csproj" />
+  </ItemGroup>
+
 </Project>
