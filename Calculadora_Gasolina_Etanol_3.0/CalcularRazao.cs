@@ -14,7 +14,7 @@ namespace Calculadora_Gasolina_Etanol_3._0
         }
 
 
-        private double _combustivelB;
+        public double _combustivelB;
         public double CombustivelB
         {
             get { return _combustivelB; }
@@ -46,7 +46,7 @@ namespace Calculadora_Gasolina_Etanol_3._0
 
         public double economiaG; // Economia Gasolina
 
-        public double EconomiaG
+        public double EconomiaG /////
         {
             get { return (VA * (Razao - 0.73)); }
             set { economiaG = value; }
@@ -56,7 +56,7 @@ namespace Calculadora_Gasolina_Etanol_3._0
 
         public double EconomiaE
         {
-            get { return (VA * (0.73 - Razao)); }
+            get { return (VA * (0.73 - Razao)); } //VA = Valor Abastecimento
             set { economiaE = value; }
         }
 
